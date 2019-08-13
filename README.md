@@ -18,8 +18,11 @@
 # 克隆到本地
 git clone https://github.com/bailicangdu/vue2-happyfri.git
 
+# 进入文件夹
+cd vue2-happyfri
+
 # 安装依赖
-npm install
+npm install 或 yarn(推荐)
 
 # 开启本地服务器localhost:8088
 npm run dev
@@ -33,8 +36,8 @@ npm run build
 # 效果演示
 
 
-[demo地址](http://cangdu.org/happyfri/)（请用chrome手机模式预览）
-   
+[demo地址](https://cangdu.org/happyfri/)（请用chrome手机模式预览）
+
 ### 移动端扫描下方二维码
 <img src='https://github.com/bailicangdu/vue2-happyfri/blob/master/src/images/ewm.png' width="300" height="300" />
 
@@ -161,4 +164,3 @@ new Vue({
 	store,
 }).$mount('#app')
 ```
-
